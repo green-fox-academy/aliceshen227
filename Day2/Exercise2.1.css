@@ -1,0 +1,53 @@
+.left {
+    background: orange;
+    height: 500px;
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.right {
+    background: green;
+    height: 500px;
+    display: inline-block;
+    width: 20%;
+    float: right;
+}
+
+nav {
+    background: purple;
+    height: 80px;
+    width: 100%;
+}
+
+.content {
+    background: red;
+    height: 500px;
+    width: 50%;
+    margin: 0 5%;
+    float: left;
+    position: relative;
+}
+
+body {
+    width: 600px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: blue;
+    height: 80px;
+    width: 100%;
+    clear: both;
+}
+
+div>div {
+    background: black;
+    position: relative;
+    top: 400px;
+    left: 200px;
+    height:50px;
+    width: 50px;
+}

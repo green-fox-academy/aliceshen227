@@ -1,0 +1,10 @@
+div {
+    height: 50px;
+    width: 100%;
+    background: #666
+}
+
+div>div+div {
+    margin: 10px 0;
+}
+
