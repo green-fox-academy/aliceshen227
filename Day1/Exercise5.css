@@ -2,7 +2,7 @@ h1 {
     color: blue;
 }
 
-h3 {
+h2{
     color: orange;
 }
 
@@ -12,4 +12,16 @@ h3 {
 
 li#red {
     color: red;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ul ul {
+	list-style-type: circle;
+	color: black;
+}
+ol {
+	color: black;
 }

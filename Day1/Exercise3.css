@@ -9,13 +9,12 @@ p {
     margin: auto;
     line-height: 80px;
     text-align: center;
-    height: 80px;
     width: 200px;
     color: white;
 }
+
 .north {
     background: #e37575;
-    
 }
 
 .east {

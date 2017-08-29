@@ -1,6 +1,5 @@
-div.asteroid {
+div>div {
     border: 1px solid green;
-    font-weight: bold;
 }
 
 .big {
@@ -11,6 +10,7 @@ p {
     background: yellow;
 }
 
-.asteroid.b329.big {
-    border: 0px solid;
+div {
+	font-weight: bold;
 }
+
