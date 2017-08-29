@@ -1,0 +1,74 @@
+aside {
+    background: green;
+    width: 200px;
+    float: right;
+    height: 100%;
+}
+nav {
+    background: purple;
+    height: 80px;
+    width: 100%;
+}
+
+.content {
+    background: yellow;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left {
+    height: 40px;
+    width: 80px;
+    background: cyan;
+    display: inline-block;
+    margin: 20px 20px;
+    float: left;
+    
+}
+.right {
+    height: 40px;
+    width: 40px;;
+    background: cyan;
+    display: inline-block;
+    margin: 20px 20px;
+    float: right;
+    
+}
+
+.red {
+    background: red;
+    height: 80px;
+    display: inline-block;
+    width: 21%;
+    margin: 2%;
+    float: right;
+}
+
+
+body {
+    max-width: 900px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+}
+
+p {
+    margin: 10px;
+    clear: both;
+    max-height: 200px;
+}
+
+.two {
+    max-height: 200px;
+    -webkit-column-count:2;
+    column-count:2;
+        
+}
+
+.purple {
+    background: #5d0d5d;
+    height: 30px;
+    width: 90%;
+    margin: 5px auto ;
+}
