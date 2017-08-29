@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+}
+nav {
+    margin-left: -10px;
+    width: 160px;
+    background: #f7f7f7;
+    margin-top: -5px;
+    border-right: 1px inset;
+    float: left;
+}
+
+img#logo {
+    width: 100%;
+    margin: auto;
+    
+}
+ul {
+    margin-left: -20px;
+}
+
+li {
+    list-style: none;
+    margin-left: 0px;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0645ad;
+    font-size: 12px;
+    
+}
+
+a:visited {
+    color: #0b0080;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #0645ad;
+}
+
+.title {
+    border-bottom: 1px inset #ccc;
+    margin-right: 5px;
+}
+header {
+    float: right;
+    
+}
+.headp {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 5px;
+}
+header>a {
+    margin: 0 2px;
+}
+.search {
+    clear: right;
+    display: block;
+    padding-top: 20px;
+}
+
+input {
+    display: inline-block;
+    float: right;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+button {
+    border-bottom: 1px solid #0645ad;
+    border-left: 1px solid #0645ad;
+    border-right: 1px solid #0645ad;
+    border-top: 0px solid white;
+
+    background: white;
+}
+
+.t {
+    font-weight: lighter;
+    font-size: 30px;
+    border-bottom: 1px solid #333;
+    font-family: serif;
+}
+
+.text {
+    background: white;
+    clear: right;
+    border: 1px solid #0645ad;
+    overflow: hidden;
+}
+
+.content {
+    margin: 0 5px 0 15px;
+}
+
+.copyright {
+    margin-top: -25px;
+    font-size: 13px;
+}
+.disclaimer {
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+aside {
+    float: right;
+    border: 1px solid #ccc;
+    width: 270px;
+    background: #f7f7f7;
+}
+.middle {
+    text-align: center;
+}
+.atitle {
+    font-weight: bold;
+    line-height: 0px;
+}
+img#pic {
+    width: 80%;
+    margin: 0;
+}
+.discription {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 500;
+}
+table {
+    font-size: 12px;
+    margin: auto;
+}
+
+.p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contents {
+    width: 120px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+}
+
+.incontents {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+ol {
+    margin-left:-30px;
+}
+
+.sub {
+    font-size: 23px;
+    font-family: serif;
+    border-bottom: 1px solid #333;
+}
+
+.quote {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 60px;
+}
+
+footer {
+    clear: right;
+    font-size: 10px;
+    margin: 0 5px 0 15px;
+}
+
