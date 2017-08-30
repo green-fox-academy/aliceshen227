@@ -1,0 +1,23 @@
+{
+  "name": "aliceshen227",
+  "version": "1.0.0",
+  "description": "This is the git where I put my homework from JS academy!",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenfox-academy/aliceshen227.git"
+  },
+  "author": "Alice Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenfox-academy/aliceshen227/issues"
+  },
+  "homepage": "https://github.com/greenfox-academy/aliceshen227#readme"
+}
