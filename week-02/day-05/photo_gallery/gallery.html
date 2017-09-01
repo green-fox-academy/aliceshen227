@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <title>My photo gallery</title>
+        <link rel="stylesheet" type="text/css" href="gallery.css">
+    </head>
+
+    <body>
+       <header>
+           <p>Food Gallery</p>
+       </header>
+        <div class="slide_show">
+           <div class="b left">
+               <button type="button" class="arrow" onclick="changeSlides(-1)"></button>
+           </div>
+           <div class="slideshow-container">
+               <div class="pic">
+                    <img src="images/chicken.jpg">
+                    <div class="text">
+                        <p class="heading">Delicious Chicken!</p>
+                        <p class="blah">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="images/beef.jpg">
+                    <div class="text">
+                        <p class="heading">Delicious Beef!</p>
+                        <p class="blah">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="images/drink.jpg">
+                    <div class="text">
+                        <p class="heading">Delicious Beer!</p>
+                        <p class="blah">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="images/cheese.jpg">
+                    <div class="text">
+                        <p class="heading">Delicious Cheese Stick!</p>
+                        <p class="blah">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="images/pizza.jpg">
+                    <div class="text">
+                        <p class="heading">Delicious Pizza!</p>
+                        <p class="blah">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="images/rice.jpg">
+                    <div class="text">
+                        <p class="heading">Delicious Rice!</p>
+                        <p class="blah">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+           <div class="b right">
+               <button type="button" class="arrow" onclick="changeSlides(1)"></button>
+           </div>
+            
+        </div>
+        <div class="thumbnail">   
+               <ul>      
+                   <li><button type="button" id="chicken" class="tbb" onclick="currentSlide(1)"><img src="images/chicken.jpg" class="tb"></button></li>
+                   <li><button type="button" id="beef" class="tbb" onclick="currentSlide(2)"><img src="images/beef.jpg" class="tb"></button></li>
+                   <li><button type="button" id="drink" class="tbb" onclick="currentSlide(3)"><img src="images/drink.jpg" class="tb"></button></li>
+                   <li><button type="button" id="cheese" class="tbb" onclick="currentSlide(4)"><img src="images/cheese.jpg" class="tb"></button></li>
+                   <li><button type="button" id="pizza" class="tbb" onclick="currentSlide(5)"><img src="images/pizza.jpg" class="tb"></button></li>
+                   <li><button type="button" id="rice" class="tbb" onclick="currentSlide(6)"><img src="images/rice.jpg" class="tb"></button></li>
+                </ul>  
+        </div> 
+        <script type="text/javascript" src="gallery.js"></script>
+    </body>
+</html>
