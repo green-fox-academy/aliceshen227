@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Click 3 times</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  	<button type="button">Click!</button>
+  	<p style="display: none">5 seconds elapsed and clicked 3 times</p>
+
+		<script>
+			var b = document.querySelector('button');
+			var p = document.querySelector('p');
+			var count = 0;
+			window.addEventListener('load', function(e) {
+				window.setTimeout(function() {
+					b.addEventListener("click", function(evt) {
+						count++;
+						if(count >=3) {
+							p.setAttribute("style","display: show");
+						}
+					});
+				}, 5000);
+			});
+		</script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Delayed click</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  	<button type="button">Click!</button>
+  	<p style="display: none">2 seconds elapsed</p>
+
+		<script>
+			var b = document.querySelector('button');
+			var p = document.querySelector('p');
+			b.addEventListener("click", function(evt) {
+				window.setTimeout(function() {
+        	p.setAttribute("style","display: show");
+    		}, 2000);
+			});
+		</script>
+  </body>
+</html>
