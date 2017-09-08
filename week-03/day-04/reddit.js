@@ -10,21 +10,7 @@ window.addEventListener("load", function(event) {
 			document.getElementsByTagName('button')[0].addEventListener('click', send);
 		}
 		else if(window.location.href.includes('modify.html')){
-			let modif = new XMLHttpRequest();
-			modif.open('GET', URL + "/posts");
-			modif.addEventListener('readystatechange', function(){
-				if(modif.readyState == XMLHttpRequest.DONE) {
-					let id = window.location.search.substring(4);
-					var data = JSON.parse(modif.response).posts;
-					for(let i = 0; i < data.length; i++) {
-						if(data[i].id == id) {
-							document.querySelector('.url').value = data[i].href;
-							document.querySelector('.titleText').value = data[i].title;
-						}
-					}
-				}
-			});
-			modif.send(null);	
+			loadmodify();
 			document.getElementsByTagName('button')[0].addEventListener('click', modify);
 		}
 });
@@ -104,7 +90,6 @@ function get() {
 				modify.textContent = "modify";
 				remove.textContent = "remove";
 				
-				
 				div.appendChild(a);
 				div.appendChild(sub);
 				div.appendChild(modify);
@@ -169,4 +154,22 @@ function modify() {
 			}
 		});	
 	}
+}
+
+function loadmodify() {
+	let modif = new XMLHttpRequest();
+	modif.open('GET', URL + "/posts");
+	modif.addEventListener('readystatechange', function(){
+		if(modif.readyState == XMLHttpRequest.DONE) {
+			let id = window.location.search.substring(4);
+			var data = JSON.parse(modif.response).posts;
+			for(let i = 0; i < data.length; i++) {
+				if(data[i].id == id) {
+					document.querySelector('.url').value = data[i].href;
+					document.querySelector('.titleText').value = data[i].title;
+				}
+			}
+		}
+	});
+	modif.send(null);	
 }
