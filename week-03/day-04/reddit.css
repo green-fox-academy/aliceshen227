@@ -1,0 +1,164 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+/*post*/
+.title {
+	float: left;
+	margin: 0 10px;
+	color: #8d8d8d;
+	width: 70%;
+}
+
+.atitle {
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+}
+.atitle:visited {
+	color: rgb(0, 88, 255);
+}
+
+
+.sub {
+	font-size: 10px;
+	font-weight: lighter;
+}
+
+.extra {
+	font-size: 10px;
+	font-weight: bold;
+	color: #8d8d8d;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+
+/*list*/
+ol {
+	padding-left: 10px;
+}
+
+ol>li {
+	clear: both;
+	display: block;
+	list-style-position: outside;
+	
+}
+
+/*index and votes*/
+p {
+	margin: 0;	
+	font-weight: bold;
+	color: darkgray;
+}
+
+.votes {
+	line-height: 20px;
+	width: 30px;
+	text-align: center;
+	float: left;
+}
+
+.index {
+	float: left;
+	padding: 21px 10px;
+	margin: 0;	
+	font-weight:normal;
+	color: darkgrey;
+	width: 20px;
+	text-align: center;
+}
+
+/*header*/
+
+.header {
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+header>ul {
+	margin: 0;
+	padding: 0;
+	background: #eee;
+	border-bottom: 1px solid #00268d;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:visited {
+	color: inherit;
+}
+
+/*new_post page*/
+/*title*/
+.newPostTitle {
+	font-size: 25px;
+	font-weight: lighter;
+	border: 5px solid white;
+	color: black;
+}
+
+.form {
+	margin-left: 10px;
+	border-top: 4px solid #5cb6d8;
+}
+
+.form>p{
+		color: black;
+}
+
+.showoff {
+	font-weight: lighter;
+	margin-top: 7px;
+	background: rgba(245, 229, 163, 1);
+	border: 1px solid orange;
+	padding: 3px;
+	font-size: 12px;
+}
+
+.container {
+	width: 500px;
+}
+
+.blue {
+	margin: 5px 0;
+	background: rgba(207,227,247,1);
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+}
+
+.description {
+	color: black;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+input {
+	width: 99%;
+}
+
+.titleText {
+	min-height: 40px;
+}
+
+.checkbox {
+	width: auto;
+}
+
+.required {
+	font-size: 8px;
+}
+
+.red::before {
+	content: "*";
+	color: red;
+}
+
+
+
+
+
