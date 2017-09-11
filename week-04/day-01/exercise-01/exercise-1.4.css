@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+/*  justify-content: space-around;*/
+	flex-direction: column-reverse;
+}
+
+.item {
+  align-self: flex-start;
+	height: 200px;
+	width: 100%;
+}
+
+.green {
+	background: green;
+	order: 2;
+}
+
+.yellow {
+	background: yellow;
+	height: 400px
+}
+
+.purple {
+	background: purple;
+	order: 1;
+}

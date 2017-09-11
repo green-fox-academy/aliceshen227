@@ -1,0 +1,39 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+header {
+	background: purple;
+	display: flex;
+	justify-content: flex-start;
+	height: 60px;
+	align-items: center;
+	width: 700px;
+}
+
+.menu {
+	width: 80px;
+	height: 30px;
+	background: #00ffff;
+	margin: 0 5px;
+}
+
+.content {
+	display: flex;
+	justify-content: flex-start;
+	height: 700px;
+	width: 700px;
+}
+
+.main {
+	width: 500px;
+	background: yellow;
+}
+
+.side {
+	width: 200px;
+	background: green;
+}

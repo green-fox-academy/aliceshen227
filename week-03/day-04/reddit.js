@@ -159,7 +159,7 @@ function modify() {
 function loadmodify() {
 	let modif = new XMLHttpRequest();
 	modif.open('GET', URL + "/posts");
-	modif.addEventListener('readystatechange', function(){
+	modif.addEventListener('readystatechange', function() {
 		if(modif.readyState == XMLHttpRequest.DONE) {
 			let id = window.location.search.substring(4);
 			var data = JSON.parse(modif.response).posts;

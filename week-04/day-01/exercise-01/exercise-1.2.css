@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+/*  justify-content: space-around;*/
+	flex-direction: row;
+}
+
+.item {
+  align-self: flex-end;
+	height: 200px;
+	width: 200px;
+}
+
+.green {
+	background: green;
+}
+
+.yellow {
+	background: yellow;
+	width: 400px
+}
+
+.purple {
+	background: purple;
+}

@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+	background: yellow;	
+	height: 700px;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	background: purple;
+	margin-bottom: 1%;
+}
+.empty {
+	background: yellow;
+}

@@ -1,0 +1,16 @@
+.display {
+  display: flex;
+	background: orange;
+	width: 700px;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+}
+
+.item {
+	background: purple;
+	width: 100px;
+	height: 100px;
+	
+}
+

@@ -9,15 +9,15 @@ function get() {
 	httpRequest.addEventListener('readystatechange', function() {
 		if(httpRequest.readyState == XMLHttpRequest.DONE) {
 				var data = JSON.parse(httpRequest.response).data;
-				window.display.innerHTML = ' ';
+				window.display.innerHTML = '';
 				for(let i = 0; i < data.length; i++) {
 					var img = document.createElement('img');
 					img.src = data[i].images.original_still.url;
 					img.style.width = '23%';
 					img.style.margin = '0 1%';
 					display.appendChild(img);
-					img.setAttribute('data-url-gif', data[i].images.original.url )
-					img.setAttribute('data-url-jpg', data[i].images.original_still.url )
+					img.setAttribute('data-url-gif', data[i].images.original.url);
+					img.setAttribute('data-url-jpg', data[i].images.original_still.url);
 					img.addEventListener('mouseover', function(event) {
 						change(event);
 					});
