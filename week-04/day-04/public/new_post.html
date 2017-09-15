@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Reddit</title>
+	<link rel="stylesheet" type="text/css" href="reddit.css">
+</head>
+    
+<body>
+   <header>
+   	<ul>
+   		<li class="header"><a href="reddit.html">MAIN</a></li>
+   		<li class="header"><a href="new_post.html">CREATE NEW POST</a></li>
+   		<li class="header login"><a class="aLogin" href = "login.html">LOGIN>></a></li>
+   	</ul>
+   </header>
+   
+   <div class="container">
+		 <p class="newPostTitle">submit to the page</p>
+		 <div class="form">
+			 <p class="showoff">Please input the title and the url to your page <br>If the option is not selected, your post will contain your real user name. </p>
+			 <div class="blue"> 
+				<p class="description">url</p>
+				<input type="url" class="url">
+			 </div>
+			 <div class="blue">
+				<p class="description red">title</p>
+				<input class="titleText" type="text">
+			 </div>
+			 <div class="blue">
+				<p class="description">options</p>
+				 <input class="checkbox" type="checkbox">
+				 <lable>post as anonymous</lable>
+			 </div>
+			 <p class="required">*required</p>
+			 <button type="button">submit</button>
+		 </div>
+   </div>
+   
+    <script type="text/javascript" src="reddit.js"></script>
+</body>
+</html>
