@@ -1,0 +1,39 @@
+// $color: #000;
+$red: #000000;
+
+//exercise 3
+@import "partial";
+//exercise 1
+body{
+  background: $color;
+}
+
+//exercise 4
+@mixin border($thickness) {
+  border-width: $thickness;
+  -webkit-border-width: $thickness;
+  -moz-border-width: $thickness;
+  -ms-border-width: $thickness;
+  @content;
+}
+
+@include border($thickness){
+  border-style: solid;
+};
+
+//exercise 2
+aside {
+  ul {
+    margin: 0;
+  }
+
+  li {
+  }
+
+  a {
+    @include border(10px);
+    border-color: $red;
+
+    color: $red
+  }
+}
