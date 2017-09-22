@@ -1,0 +1,189 @@
+$highLightColor: #FFF0AA;
+$backgroundColor: #B0E57C;
+$navColor: #56BAEC;
+$fontColor: rgba(66, 66, 66, 0.9);
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body {
+  background: $backgroundColor;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.centerContainer{
+  margin: auto;
+  width: 1350px;
+}
+
+nav{
+  background:$navColor;
+  margin-right: -8px;
+  margin-left: -8px;
+  margin-top: -8px;
+  line-height: 20px;
+  color: $navColor;
+  ul{
+    margin: 0;
+  }
+  li{
+    display: inline-block;
+    margin: 5px;
+    background: $highLightColor;
+    padding: 2px;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited{
+    color: inherit;
+  }
+  a:active{
+    color: inherit;
+  }
+}
+
+.searchbar{
+  line-height: 50px;
+  font-size: 40px;
+  display: flex;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #333;
+
+  .repoName{
+    line-height: 40px;
+    margin: 0;
+    border-top-color: transparent;
+  	border-left-color: transparent;
+  	border-right-color: transparent;
+  	border-bottom: 1px $fontColor inset;
+  	background: transparent;
+    font-size: 40px;
+    color: $fontColor;
+    overflow: hidden;
+    width: 850px;
+  }
+
+  .goButton{
+    line-height: 40px;
+    width: 70px;
+    font-size: 35px;
+    border: 1px $fontColor solid;
+    border-radius: 5%;
+    color: black;
+    background: transparent;
+    float: right;
+  }
+
+  .goButton:hover{
+    cursor: pointer;
+  }
+}
+
+.mainContent{
+  margin-top: 10px;
+  float: left;
+
+  .searchResultContainer{
+    min-height: 150px;
+  }
+
+  .commitTitle{
+    line-height: 39px;
+    background: $highLightColor;
+    display: inline-block;
+
+    .numberOfCommits{
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  p {
+    font-size: 25px;
+    background: $highLightColor;
+    padding: 5px;
+    display: inline;
+  }
+
+  .searchResultTitle {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: $fontColor;
+
+  }
+
+  .searchResultSubTitle{
+    font-size: 15px;
+    color: $fontColor;
+  }
+
+
+
+}
+
+aside {
+  float: right;
+  width: 200px;
+  margin-right: 35px;
+
+  form{
+    width: 100%;
+    min-height: 150px;
+
+    label{
+      display: inline;
+      font-size:25px;
+      width: 200px;
+      border-top-color: transparent;
+    	border-left-color: transparent;
+    	border-right-color: transparent;
+    	border-bottom: 2px $fontColor solid;
+    	background: transparent;
+
+    }
+
+    input{
+      line-height: 20px;
+      display: block;
+      width: 100%;
+      border-top-color: transparent;
+    	border-left-color: transparent;
+    	border-right-color: transparent;
+    	border-bottom: 1px $fontColor solid;
+    	background: transparent;
+      margin: 5px 0;
+    }
+
+    button{
+      margin-top: 5px;
+      width: 100%;
+      background: $navColor;
+      border: 1px $fontColor solid;
+    }
+  }
+
+  .Recommended{
+    text-align: right;
+
+    p {
+      font-size:25px;
+      display: inline;
+      border-top-color: transparent;
+    	border-left-color: transparent;
+    	border-right-color: transparent;
+    	border-bottom: 2px $fontColor solid;
+    	background: transparent;
+    }
+
+    li{
+      list-style: none;
+    }
+
+    li:hover{
+      cursor: pointer;
+    }
+  }
+}
